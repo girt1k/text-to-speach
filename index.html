@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-speach</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <header>Преобразователь текста в речь</header>
+        <textarea placeholder="Введите текст"></textarea>
+        <div id="rate-control">
+            <label for="rate">Скорость:</label>
+            <input type="range" min="0.5" max="2" value="1" step="0.1" id="rate">
+        </div>
+        <button>Преобразовать в речь</button>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
